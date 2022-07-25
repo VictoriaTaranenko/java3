@@ -21,6 +21,8 @@ public class ArrayProcessing {
                 has1 = true;
             } else if (in[i] == 4) {
                 has4 = true;
+            } else {
+                return false;
             }
         }
         return has1 & has4;
